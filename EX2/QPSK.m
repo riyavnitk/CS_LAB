@@ -27,7 +27,7 @@ axis([0,N,-0.5,1.5]);
 subplot(3,2,3); plotHandle=plot(qpskModulated);
 xlabel('Samples'); ylabel('Amplitude');
 title('QPSK modulated Data');
-xlimits = XLIM; ylimits = YLIM;
+xlimits = [0 N]; ylimits = [-0.5 1.5];
 axis([xlimits,ylimits(1)-0.5,ylimits(2)+0.5]) ;
 grid on;
 
